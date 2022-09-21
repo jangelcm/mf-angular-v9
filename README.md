@@ -32,11 +32,12 @@ npm i
 npm start
 ```
 
-Now go to http://coexisting-angular-microfrontends.surge.sh in a browser. Click on the yellowish rectangle at the bottom right. Then click on `app1`. Change the module url to http://localhost:4201/main.js. Then apply the override and reload the page. This will have change app1 to load from your localhost instead of from surge.sh. As you modify the code locally, it will
-reload the page on coexisting-angular-microfrontends.surge.sh. See https://github.com/joeldenning/import-map-overrides for more info on this.
+Ahora vaya a http://coexisting-angular-microfrontends.surge.sh en un navegador. Haga clic en el rectángulo amarillento en la parte inferior derecha. Luego haga clic en `app1`. Cambie la URL del módulo a http://localhost:4201/main.js. Luego aplique la anulación y vuelva a cargar la página. Esto tendrá el cambio app1 para cargar desde su host local en lugar de surge.sh. A medida que modifica el código localmente, se
+Vuelva a cargar la página en coexisting-angular-microfrontends.surge.sh. Consulte https://github.com/joeldenning/import-map-overrides para obtener más información al respecto.
 
 ## Local development -- all at once
-It is preferred to only run one app at a time. But if you need to run them all locally, you can do so with the following instructions
+
+Es preferible ejecutar solo una aplicación a la vez. Pero si necesita ejecutarlos todos localmente, puede hacerlo con las siguientes instrucciones.
 
 ```sh
 # First terminal tab
@@ -65,7 +66,7 @@ npm install
 npm start
 ```
 
-Now go to http://localhost:4200 in a browser. Note that you can change any of the ports for the projects by modifying the Import Map inside of
+Ahora vaya a http://localhost:4200 en un navegador. Tenga en cuenta que puede cambiar cualquiera de los puertos para los proyectos modificando el mapa de importación dentro de
 root-html-file/index.html.
 
 If you get serious about deploying your code, you'll want to make it no longer necessary to boot up all of the apps in order to do anything.
